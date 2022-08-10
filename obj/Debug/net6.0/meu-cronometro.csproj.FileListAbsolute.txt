@@ -1,0 +1,15 @@
+C:\dev\csharp-meu-cronometro\meu-cronometro\obj\Debug\net6.0\meu-cronometro.csproj.AssemblyReference.cache
+C:\dev\csharp-meu-cronometro\meu-cronometro\obj\Debug\net6.0\meu-cronometro.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\csharp-meu-cronometro\meu-cronometro\obj\Debug\net6.0\meu-cronometro.AssemblyInfoInputs.cache
+C:\dev\csharp-meu-cronometro\meu-cronometro\obj\Debug\net6.0\meu-cronometro.AssemblyInfo.cs
+C:\dev\csharp-meu-cronometro\meu-cronometro\obj\Debug\net6.0\meu-cronometro.csproj.CoreCompileInputs.cache
+C:\dev\csharp-meu-cronometro\meu-cronometro\bin\Debug\net6.0\meu-cronometro.exe
+C:\dev\csharp-meu-cronometro\meu-cronometro\bin\Debug\net6.0\meu-cronometro.deps.json
+C:\dev\csharp-meu-cronometro\meu-cronometro\bin\Debug\net6.0\meu-cronometro.runtimeconfig.json
+C:\dev\csharp-meu-cronometro\meu-cronometro\bin\Debug\net6.0\meu-cronometro.dll
+C:\dev\csharp-meu-cronometro\meu-cronometro\bin\Debug\net6.0\meu-cronometro.pdb
+C:\dev\csharp-meu-cronometro\meu-cronometro\obj\Debug\net6.0\meu-cronometro.dll
+C:\dev\csharp-meu-cronometro\meu-cronometro\obj\Debug\net6.0\refint\meu-cronometro.dll
+C:\dev\csharp-meu-cronometro\meu-cronometro\obj\Debug\net6.0\meu-cronometro.pdb
+C:\dev\csharp-meu-cronometro\meu-cronometro\obj\Debug\net6.0\meu-cronometro.genruntimeconfig.cache
+C:\dev\csharp-meu-cronometro\meu-cronometro\obj\Debug\net6.0\ref\meu-cronometro.dll
