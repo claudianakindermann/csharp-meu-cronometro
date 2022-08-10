@@ -25,38 +25,37 @@ namespace Cronometro
         static void Start(int minuto, int segundo)
         {
 
-            int currentSegundo = 0;
             int currentMinuto = 0;
 
             while (currentMinuto != minuto)
             {
-                while (currentSegundo < 60)
-                {
-                    Console.Clear();
-                    Console.WriteLine(currentMinuto + ":" + currentSegundo);
-                    currentSegundo++;
-                    Thread.Sleep(1000);
-                }
+                ContaSegundos(currentMinuto, 60);
                 Console.Clear();
                 currentMinuto++;
-                currentSegundo = 0;
-                Console.WriteLine(currentMinuto + ":" + currentSegundo);
-                Thread.Sleep(1000);
-
-            }
-
-            while (currentSegundo != segundo)
-            {
-                Console.Clear();
-                currentSegundo++;
-                Console.WriteLine(minuto + ":" + currentSegundo);
+                Console.WriteLine(currentMinuto + ":00");
                 Thread.Sleep(1000);
             }
+
+            ContaSegundos(currentMinuto, segundo + 1);
 
             Console.WriteLine("Cronômetro finalizado!");
             Thread.Sleep(1000);
 
             Menu();
         }
+
+        static void ContaSegundos(int currentMinuto, int duracaoSegundos)
+        {
+            int currentSegundo = 0;
+
+            while (currentSegundo < duracaoSegundos)
+            {
+                Console.Clear();
+                Console.WriteLine(currentMinuto + ":" + currentSegundo);
+                currentSegundo++;
+                Thread.Sleep(1000);
+            }
+        }
+
     }
 }
